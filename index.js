@@ -1,3 +1,4 @@
+//texto digitado pelo usuário
 const user_input = document.getElementById("taskname");
 
 function addTask(user_input) {
