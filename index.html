@@ -6,8 +6,17 @@
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <input type="text" id="taskname" placeholder="Nome da Tarefa">
-        <button id="addbutton">Adicionar</button>
+        <Header><h1>To-Do List</h1></Header>
+        <main>
+            <section class="add-task">
+                <input type="text" id="taskname" placeholder="Nome da Tarefa">
+                <button onclick="Task.addTask(Task.getTaskName())" id="addbutton">Adicionar</button>
+            </section>
+            <section id="task-list">
+                
+            </section>
+        </main>
+        
 
         <script src='./assets/js/index.js'></script>
     </body>
