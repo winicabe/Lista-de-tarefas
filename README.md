@@ -6,5 +6,5 @@ O objetivo deste projeto é fazer uma integração do JavaScript com banco de da
 - [x] Adicionar no Banco de Dados;
 - [x] Remover do banco de Dados;
 <h4 align="center"> 
-	🚧  Projeto 🚀 Em construção...  🚧
+	🚀 Projeto 🚀Finalizado 🚀
 </h4>
