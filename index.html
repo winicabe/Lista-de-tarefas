@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html land="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <title>Lista de Tarefas.</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <Header><h1>To-Do List</h1></Header>
-        <main>
-            <section class="add-task">
-                <input type="text" id="taskname" placeholder="Nome da Tarefa">
-                <button onclick="Task.addTask(Task.getTaskName())" id="addbutton">Adicionar</button>
-            </section>
-            <section id="task-list">
-                
-            </section>
-        </main>
-        
 
-        <script src='./assets/js/index.js'></script>
-    </body>
+<head>
+    <meta charset="utf-8" />
+    <title>Lista de Tarefas.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+    <main>
+        <section id="add-task">
+            <input type="text" id="task-name" placeholder="Nome da Tarefa">
+            <button onclick="Task.addTask(Task.getTaskName())" id="add-button">Adicionar <img src="assets/images/send.png"></button>
+        </section>
+        <section id="task-list">
+
+        </section>
+    </main>
+
+
+    <script src='./assets/js/index.js'></script>
+</body>
+
 </html>
